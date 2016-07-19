@@ -17,9 +17,9 @@
 //= require_tree .
 
 $( document ).ready(function() {
-    $('.wrapper').fadeIn(2000);
-    $('.wrapper h1').fadeIn(5000);
-    $('.wrapper h5').fadeIn(6000);
+    $('.wrapper').fadeIn(1000);
+    $('.wrapper h1').fadeIn(2000);
+    $('.wrapper h5').fadeIn(3000);
 
 
 
