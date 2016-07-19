@@ -90,13 +90,13 @@
   .skill-blocks {
     margin-top:30px;
     .skill-block {
-      height:210px;
-      width:210px;
+      height:220px;
+      width:220px;
       display:block;
       margin: 0 auto;
       text-align:center;
       p {
-        padding-top:95px;
+        padding-top:100px;
         color:white;
         font-weight:bold;
         letter-spacing:1px;
@@ -117,22 +117,22 @@
 
    padding-top:70px;
    padding-bottom:70px;
-  .work-panel {
-    color:white;
-    background-color:rgba(0, 0, 0, 0.57);
-    border:none;
-    p {
-      font-weight:lighter;
-    }
-    h4 {
-      font-size:25px;
-    }
-    h5 {
-      font-size:20px;
-    }
-  }
 }
 
+.black-panel {
+  color:white;
+  background-color:rgba(0, 0, 0, 0.57);
+  border:none;
+  p {
+    font-weight:lighter;
+  }
+  h4 {
+    font-size:25px;
+  }
+  h5 {
+    font-size:20px;
+  }
+}
 
 .projects {
   padding-top:70px;
@@ -203,7 +203,36 @@
         background-size:cover;
       }
     }
+  }
+}
 
+.quote {
+  background:linear-gradient(
+       rgba(0,0,0,0.7),
+       rgba(0,0,0,0.7)
+       ),image-url("venice.jpg")no-repeat center center fixed;
+   background-size:cover;
+   padding-top:70px;
+   padding-bottom:70px;
+   img {
+     height:100px;
+     opacity:0.5;
+   }
+}
 
+.contact {
+  background-color:#00001C;
+  text-align:center;
+  height:90px;
+  padding-top:15px;
+  a {
+    background-color:#013974;
+    padding:7px 10px;
+    color:white;
+    font-weight:bold;
+
+  }
+  #repo {
+      background-color:#433B74
   }
 }
