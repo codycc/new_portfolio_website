@@ -69,6 +69,9 @@
 
 
 .skills {
+  background-color:#F6F6F6;
+  padding-top:30px;
+  padding-bottom:60px;
   .title {
     text-align:center;
   }
@@ -89,6 +92,31 @@
       .col-md-3 {
         padding:0px;
       }
+    }
+  }
+}
+
+.work-experience {
+  background:linear-gradient(
+       rgba(0,0,0,0.7),
+       rgba(0,0,0,0.7)
+       ),image-url("vegas2.jpg")no-repeat center center fixed;
+   background-size:cover;
+
+   padding-top:70px;
+   padding-bottom:70px;
+  .work-panel {
+    color:white;
+    background-color:rgba(0, 0, 0, 0.57);
+    border:none;
+    p {
+      font-weight:lighter;
+    }
+    h4 {
+      font-size:25px;
+    }
+    h5 {
+      font-size:20px;
     }
   }
 }
