@@ -39,12 +39,14 @@
     padding-top:20%;
     .name {
       text-align:center;
+
       .wrapper {
         margin: 0 auto;
         background-color:rgba(255, 255, 255, 0.66);
         padding: 15px 0px;
         width:350px;
         display:none;
+
         h1 {
           font-weight:lighter;
           letter-spacing: 2px;
@@ -243,4 +245,11 @@
   #repo {
       background-color:#433B74
   }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .wrapper {
+        width:10px;
+    }
 }
