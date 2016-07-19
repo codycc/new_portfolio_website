@@ -15,6 +15,8 @@
  *
 
  */
+ $beige: #E5CDB5;
+ $violet: #5768EF;
 // TYPOGRAPHY
  h1 {
    padding:0px;
@@ -51,10 +53,9 @@
  .about-me {
    padding-top:50px;
    padding-bottom:50px;
- }
-
- .about-me-info {
-   padding:30px;
+   .about-me-info {
+     padding:30px;
+   }
  }
 
  .profilephoto img {
@@ -63,8 +64,31 @@
    display: block;
    margin: 0 auto;
    margin-top:30px;
+   border: 3px solid $violet;
  }
 
- .profilephoto {
 
- }
+.skills {
+  .title {
+    text-align:center;
+  }
+  .skill-blocks {
+    margin-top:30px;
+    .skill-block {
+      height:210px;
+      width:210px;
+      display:block;
+      margin: 0 auto;
+      text-align:center;
+      p {
+        padding-top:100px;
+        color:white;
+        font-weight:bold;
+        letter-spacing:1px;
+      }
+      .col-md-3 {
+        padding:0px;
+      }
+    }
+  }
+}
