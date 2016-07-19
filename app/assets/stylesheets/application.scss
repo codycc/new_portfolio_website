@@ -175,14 +175,14 @@
     #sightcast {
       padding-top:115px;
       &:hover {
-        background:url("sightcastpreview.png");
+        background:image-url("sightcastpreview.png");
         background-size:cover;
       }
     }
     #portfolio1 {
 
       &:hover {
-        background:url("portfolio1.png");
+        background:image-url("portfolio1.png");
         background-size:cover;
       }
     }
@@ -190,21 +190,21 @@
     #blogger1 {
       padding-top:115px;
       &:hover {
-        background:url("blogger1.png");
+        background:image-url("blogger1.png");
         background-size:cover;
       }
     }
 
     #portfolio2 {
       &:hover {
-        background:url("portfolio2.png");
+        background:image-url("portfolio2.png");
         background-size:cover;
       }
     }
 
     #github {
       &:hover {
-        background:url("github.png");
+        background:image-url("github.png");
         background-size:cover;
       }
     }
