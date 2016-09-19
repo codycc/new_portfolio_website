@@ -39,14 +39,13 @@
     padding-top:20%;
     .name {
       text-align:center;
-
       .wrapper {
         margin: 0 auto;
-        background-color:rgba(255, 255, 255, 0.66);
+        background-color:rgba(0, 0, 0, 0.81);
         padding: 15px 0px;
         width:350px;
         display:none;
-
+        color:grey;
         h1 {
           font-weight:lighter;
           letter-spacing: 2px;
@@ -248,8 +247,8 @@
 }
 
 
-@media only screen and (max-width: 500px) {
-    .wrapper {
-        width:10px;
+@media screen and (max-width: 800px) {
+    body {
+        background-color: lightgreen;
     }
 }
