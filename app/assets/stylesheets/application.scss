@@ -231,9 +231,8 @@ html,body
   background:linear-gradient(
        rgba(0,0,0,0.7),
        rgba(0,0,0,0.7)
-       ),image-url("venice.jpg")center center fixed;
-
-   width:100vw;
+       ),image-url("venice.jpg")no-repeat center center fixed;
+   background-size:cover;
    padding-top:70px;
    padding-bottom:70px;
    img {
