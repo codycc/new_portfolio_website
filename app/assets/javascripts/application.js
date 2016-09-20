@@ -18,8 +18,8 @@
 
 $( document ).ready(function() {
     $('.wrapper').fadeIn(1000);
-    $('.wrapper h1').fadeIn(2000);
-    $('.wrapper h5').fadeIn(3000);
+    $('.wrapper h1').fadeIn(3000);
+    $('.wrapper h5').fadeIn(6000);
 
 
 
