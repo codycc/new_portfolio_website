@@ -74,7 +74,7 @@ html,body
  }
 
  .about-me {
-   background-color:rgba(168, 235, 176, 1);
+   background-color:white;
    padding-top:50px;
    padding-bottom:50px;
    .about-me-info {
@@ -99,7 +99,7 @@ html,body
 
 
 .skills {
-  background-color:#F6F6F6;
+  background-color:#f7f7f7;
   padding-top:30px;
   padding-bottom:60px;
   .title {
@@ -123,6 +123,22 @@ html,body
       }
       .col-md-3 {
         padding:0px;
+      }
+    }
+
+    .skill-block-2 {
+      height:220px;
+      width:220px;
+      display:block;
+      margin: 0 auto;
+      text-align:center;
+
+      p {
+        padding-top:45px;
+        color:white;
+        font-weight:bold;
+        letter-spacing:1px;
+        font-size:20px;
       }
     }
   }
@@ -155,7 +171,7 @@ html,body
 }
 
 .projects {
-  background-color:rgba(168, 235, 176, 1);
+  background-color:#f7f7f7;
   padding-top:70px;
   padding-bottom:70px;
   img {
